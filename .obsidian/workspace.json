@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C+/Sem título.md",
+                "file": "C+/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Git"
             }
           },
           {
@@ -212,10 +212,11 @@
   },
   "active": "81e90e6de1e19ebd",
   "lastOpenFiles": [
-    "C+/const.md",
-    "C+/Sem título.md",
-    "C+/Função Math.Abs().md",
     "C+/Atalhos.md",
+    "C+/Git.md",
+    "C+/Equals.md",
+    "C+/const.md",
+    "C+/Função Math.Abs().md",
     "C+/long.md",
     "C+/C+.md",
     "C+/Tutorial C Sharp.md",
@@ -237,7 +238,6 @@
     "C+/get & set.md",
     "C+/Modulo 0.md",
     "Sem título.md",
-    "C+/Método Count.md",
     "ADS",
     "Sem título 1",
     "C+"
