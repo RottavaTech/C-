@@ -18,9 +18,12 @@
 [[private & public]]
 [[Função Math.Abs()]]
 [[Método static]]
-[[trim]]
-## Básico C Sharp Tutorial
+[[Método Trim]]
+[[const]]
+[[Método Equals]]
+[[Operador Ternário]]
+## Outros
 
-### Variáveis, Métodos, Classes e Operadores de Comparação, Lógicos e Aritméticos
-[[Tutorial C Sharp]]
-[[Atalhos]]
+[[Basico C Sharp]]
+[[Atalhos All]]
+[[Git]]

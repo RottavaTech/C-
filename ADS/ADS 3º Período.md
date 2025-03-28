@@ -1,1 +1,2 @@
-[[Revisão Provass]]
+[[Revisão Provas]]
+[[Atalhos All]]

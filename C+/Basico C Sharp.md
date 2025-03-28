@@ -97,6 +97,52 @@ Aqui estão os operadores básicos que você encontrará em C#.
 |`%`|Módulo (restante da|
 
 ---
+#### 🔹 5. O que é uma Matriz em C#?**
+
+Uma **matriz** é uma estrutura de dados que armazena elementos **em duas ou mais dimensões**. No C#, uma matriz pode ser vista como um conjunto organizado de variáveis do mesmo tipo. Ela é útil para armazenar dados estruturados, como tabelas, tabuleiros de jogos, ou até mesmo imagens.
+
+---
+## **Hierarquia: Como Matriz se Encaixa com Métodos, Variáveis e Classes?**
+
+1. **Variável**: Armazena um único valor.
+	`int numero = 10;`
+2. **Matriz (Array)**: Armazena vários valores do mesmo tipo em uma estrutura indexada.
+	`int[] numeros = {1, 2, 3, 4, 5};`
+3. **Matriz Bidimensional**: É um conjunto de valores organizados em **linhas e colunas**, como uma tabela.
+	`int[,] tabela = { {1, 2, 3}, {4, 5, 6} };`
+4. **Métodos**: Podem manipular matrizes, percorrendo seus valores e realizando operações.
+	`void ImprimirMatriz(int[,] matriz) { /* lógica aqui */ }`
+5. **Classe**: Pode conter uma matriz como atributo e métodos para manipular essa matriz.
+	`class Tabela {`
+    `public int[,] Matriz;`
+    `public void Preencher() { /* lógica aqui */ }`
+`}`
+   
+## **Exemplo 1: Criando uma Matriz e Exibindo os Valores**
+
+Aqui temos uma matriz 2x3 e percorremos seus valores com um **loop `for`**.
+
+`class Program`
+`{`
+    `static void Main()`
+    `{`
+        `// Declaração de uma matriz bidimensional`
+        `int[,] matriz = {`
+            `{ 1, 2, 3 },`
+            `{ 4, 5, 6 }`
+        `};`
+
+        `// Percorrendo e exibindo os valores`
+        `for (int i = 0; i < 2; i++)  // Percorre as linhas`
+        `{`
+            `for (int j = 0; j < 3; j++)  // Percorre as colunas`
+            `{`
+                `Console.Write(matriz[i, j] + " ");`
+            `}`
+            `Console.WriteLine(); // Quebra de linha entre as linhas`
+        `}`
+    `}`
+`}`
 
 #### **📌 Resumo Final**
 
@@ -105,5 +151,10 @@ Aqui estão os operadores básicos que você encontrará em C#.
 ✅ **Classes** organizam código e contêm métodos.  
 ✅impedir **`?.`**erro se a variável for `null`.  
 ✅ **`Length`**conte quantos elementos existem em um array ou string.  
-✅ **`IndexOf`**encontra a posição de um caractere dentro de uma string.  
+✅ **`IndexOf`**encontra a posição de um caractere dentro de uma string. 
 ✅ **Operadores** realizam comparações, cálculos e verificações lógicas.
+✅**Variáveis** armazenam **um único valor**.
+✅ **Matrizes** armazenam **vários valores do mesmo tipo**.
+✅**Métodos** podem manipular matrizes, tornando o código reutilizável.
+✅**Classes** podem conter matrizes como atributos e métodos para manipulá-las.
+✅**Hierarquia:** Variáveis → Matrizes → Métodos → Classes.
